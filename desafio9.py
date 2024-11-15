@@ -33,7 +33,7 @@ elif opcao == 4:
         print('Sua compra será parcela em{}x de R${:.2f} com juros'.format())
 else:
     valor_final = preco_normal
-    print('Opção inválida de pagamento, burrão')
+    print('Opção inválida de pagamento !')
 
 #Exibe o valor final a ser pago
 print('O valor final a ser pago é R${:.2f}'.format(valor_final))
